@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'sukhumvit_setbold';
+    src: url('sukhumvitset-bold-webfont.woff2') format('woff2'),
+         url('sukhumvitset-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'baloo_tammaregular';
+    src: url('balootamma-regular-webfont.woff2') format('woff2'),
+         url('balootamma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #cbf0ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100%;
+    margin:0;
+    overflow:hidden;
+    /*font-family: 'baloo_tammaregular', 'sukhumvit_setbold', fontAwesome;*/
+}
+
+
+
+.box-bg{
+  margin: 0 auto;
+    width: 1400px;
+    background-color: #000;
+    height: 780px;
+}
+
+.menu-top{
+  float: left;
+  width: 1400px;
+  height: 150px;
+  background-color: #fff;
+}
+.menu-list{
+  width: 250px;
+  height: 600px;
+  float: left;
+  background-color: red;
+  position: 
+}
+.menu{
+  width: 1130px;
+  height: 600px;
+  float: right;
+  background-color: blue;
+}
+
+
+

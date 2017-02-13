@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'sukhumvit_setbold';
+    src: url('sukhumvitset-bold-webfont.woff2') format('woff2'),
+         url('sukhumvitset-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'baloo_tammaregular';
+    src: url('balootamma-regular-webfont.woff2') format('woff2'),
+         url('balootamma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #cbf0ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100%;
+    margin:0;
+    overflow:hidden;
+    /*font-family: 'baloo_tammaregular', 'sukhumvit_setbold', fontAwesome;*/
+}
+
+
+
+.box-bg{
+	margin: 0 auto;
+	width: 750px;
+	
+
+}
+.box-login{
+	width: 750px;
+	height: 500px;
+	margin-top: 150px;
+	border-radius: 25px;
+	background-color: #fff;
+	box-shadow: #b6d7e5 0.5em 0.5em 0.1em
+
+}
+.box-img{
+	width: 320px;
+	height: 500px;
+	float: right;
+	background-color: #000;
+	
+	-moz-border-radius: 0px 25px 25px 0px;
+    -webkit-border-radius: 0px 25px 25px 0px;
+    border-radius: 0px 25px 25px 0px;
+  
+	background-image: url('../image/login-1.jpg');
+	background-repeat: round;
+	
+}
+.box-log{
+	width: 370px;
+	height: 350px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+	font-family: 'baloo_tammaregular';
+
+}
+.box-log h2{
+	font-family: 'baloo_tammaregular';
+}
+.form-control{
+	width: 300px;
+	height: 30px;
+	margin-top: 50px;
+	padding: 0 0 0 10px;
+	font-family: 'sukhumvit_setbold';
+
+}
+.form-control-login-1{
+	width: 120px;
+	height: 50px;
+	margin-top: 50px;
+	width: 134px;
+  float: left;
+    margin-right: 35px;
+    height: 42px;
+    background-color: #fff;
+    margin-top: 90px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'sukhumvit_setbold';
+    background-image: url('../image/submit.png');
+    background-repeat: round;
+    border: 0px;
+}
+.form-control-login-2 {
+	width: 120px;
+	height: 50px;
+	margin-top: 50px;
+	width: 134px;
+  float: right;
+    margin-right: 35px;
+    height: 42px;
+    background-color: #fff;
+    margin-top: 90px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'sukhumvit_setbold';
+    background-image: url('../image/submit.png');
+    background-repeat: round;
+    border: 0px;
+    opacity: .5;
+}
+.form-control-login a{
+  margin-right: 50px; 
+  
+}
+
+
+
